@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+	<title>
+		Portfolio
+	</title>
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg position-fixed w-100" id="nav">
+	  <div class="container py-2">
+	    <a class="navbar-brand" id="logo" href="#">sethscruzat</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav mx-auto gap-lg-5">
+	        <li class="nav-item">
+	          <a class="nav-link" aria-current="page" href="#landing">Home</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#projects">Projects</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#tools">Tools</a>
+	        </li>
+	        <li class="nav-item d-lg-none">
+	          <a class="nav-link" href="#contact">Contact</a>
+	        </li>
+	      </ul>
+	      	<div id="goToContact" class="d-none d-lg-block">
+		    	<a class="shadow rounded p-2 mt-sm-5" href="#contact">Get in touch</a>
+		    </div>
+	    </div>
+	  </div>
+	</nav>
+
+	<!-- BODY -->
+	<main class="container-fluid">
+
+		<!-- LANDING -->
+		<section id="landing" class="row p-5 align-items-center gap-5">
+			<div class="col-md-6 order-2 order-md-1">
+				<h2 class="mt-md-5 mb-3">Seth Arkin Cruzat</h2>
+				<h4 class="fst-italic">Full Stack Web Developer</h4>
+				<p class="fs-5">Creating responsive and fully functioning software applications with efficiency and skill. Give me a problem and I can assure you I'd provide a smart solution.</p>
+				<div class="my-4">
+					<a class="p-2 shadow" href="#projects">
+						Check out my work &#8594
+					</a>
+				</div>
+			</div>
+			<div class="col-md-5 pt-5 order-1 order-md-2">
+				<img class="img-fluid shadow" src="./images/me2.jpg">
+			</div>
+		</section>
+		
+		<!-- Projects -->
+		<section id="projects" class="p-2 p-lg-5 mb-3 text-sm-center text-md-end">
+			<h2 class="mt-4">Featured works</h2>
+			<div class="row justify-content-center mt-5 gap-5">
+
+				<div class="col-12 col-md-4 col-lg-3">
+					<div class="card shadow">
+						<img class="img-fluid card-img-top p-3" src="./images/projects/e-commerce-documentation.jpg">
+						<div class="card-body p-4 text-start">
+							<h6 class="card-title">E-commerce API Documentation</h6>
+							<p class="card-text">
+								Dynamic E-Commerce Workflow Management. The system features dynamic routes for order
+								processing, real-time inventory updates, and secure user authentication. It also supports
+								seamless automated order
+								reporting and comprehensive
+								product management.
+								Documented Backend API published
+								publicly using Postman.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 col-lg-3">
+					<div class="card shadow">
+						<img class="img-fluid card-img-top p-3" src="./images/projects/e-commerce-app.jpg">
+						<div class="card-body p-4 text-start">
+							<h6 class="card-title">Course Booking API Documentation</h6>
+							<p class="card-text">
+								RESTful API for managing course enrollments, featuring user registration, authentication, and retrieval of user details. Supports
+								course creation, updates, archiving, activation, and student enrollment. Publicly documented using
+								Postman.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 col-lg-3">
+					<div class="card shadow">
+						<img class="img-fluid card-img-top p-3" src="./images/projects/course-booking-documentation.jpg">
+						<div class="card-body p-4 text-start">
+							<h6 class="card-title">Course Booking App</h6>
+							<p class="card-text">
+								A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 col-lg-3">
+					<div class="card shadow">
+						<img class="img-fluid card-img-top p-3" src="./images/projects/course-booking-app.jpg">
+						<div class="card-body p-4 text-start">
+							<h6 class="card-title">E-commerce App</h6>
+							<p class="card-text">
+								MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting, real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 col-lg-3">
+					<div class="card shadow">
+						<img class="img-fluid card-img-top p-3" src="./images/projects/airline-booking-mockup.jpg">
+						<div class="card-body p-4 text-start">
+							<h6 class="card-title">Airline Booking System Mockup</h6>
+							<p class="card-text">
+								Side Project: Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 col-lg-3">
+					<div class="card shadow">
+						<img class="img-fluid card-img-top p-3" src="./images/projects/airline-booking-system.jpg">
+						<div class="card-body p-4 text-start">
+							<h6 class="card-title">Airline Booking System</h6>
+							<p class="card-text">
+								Side Project: Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 col-lg-3">
+					<div class="card shadow">
+						<img class="img-fluid card-img-top p-3" src="./images/projects/short-course1.jpg">
+						<div class="card-body p-4 text-start">
+							<h6 class="card-title">Short Courses Capstone</h6>
+							<p class="card-text">Placeholder for your Short courses capstone project.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-lg-3">
+					<div class="card shadow">
+						<img class="img-fluid card-img-top p-3" src="./images/projects/short-course2.jpg">
+						<div class="card-body p-4 text-start">
+							<h6 class="card-title">Short Courses Capstone</h6>
+							<p class="card-text">Placeholder for your Short courses capstone project.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-lg-3">
+					<div class="card shadow">
+						<img class="img-fluid card-img-top p-3" src="./images/projects/short-course3.jpg">
+						<div class="card-body p-4 text-start">
+							<h6 class="card-title">Short Courses Capstone</h6>
+							<p class="card-text">Placeholder for your Short courses capstone project.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- TOOLS -->
+		<section id="tools" class="p-2 p-lg-5 text-center">
+			<h2>Tools and languages</h2>
+			<div class="row justify-content-center mt-5 gap-5">
+				<div class="col-12 col-md-4 col-lg-3">
+					<h3>Frontend</h3>
+					<div class="d-flex gap-3 justify-content-center">
+						<div class="gap-3">
+							<img class="img-fluid p-2" src="./images/frontend/html.png">
+							<img class="img-fluid p-2" src="./images/frontend/css.png">
+						</div>
+						<div class="gap-3">
+							<img class="img-fluid p-2" src="./images/frontend/bootstrap.png">
+							<img class="img-fluid p-2" src="./images/frontend/tailwind.png">	
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 col-lg-3">
+					<h3>Backend</h3>
+					<div class="d-flex gap-3 justify-content-center">
+						<div class="gap-3">
+							<img class="img-fluid p-2" src="./images/backend/javascript.png">
+							<img class="img-fluid p-2" src="./images/backend/sql.png">
+						</div>
+						<div class="gap-3">
+							<img class="img-fluid p-2" src="./images/backend/mongodb.webp">
+							<img class="img-fluid p-2" src="./images/backend/postgresql.svg">	
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 col-lg-3">
+					<h3>Framework</h3>
+					<div class="d-flex gap-3 justify-content-center">
+						<div class="gap-3">
+							<img class="img-fluid p-2" src="./images/framework/react.png">
+							<img class="img-fluid p-2" src="./images/framework/vue.png">
+						</div>
+						<div class="gap-3">
+							<img class="img-fluid p-2" src="./images/framework/angular.webp">
+							<img class="img-fluid p-2" src="./images/framework/svelte.png">	
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center mt-5 gap-4">
+				<div class="col-12">
+					<h3 class="mt-lg-5">Other languages and tools</h3>
+					<div class="justify-content-center">
+						<img class="img-fluid p-2" src="./images/others/python.png">
+						<img class="img-fluid p-2" src="./images/others/java.png">
+						<img class="img-fluid p-2" src="./images/others/kotlin.png">
+						<img class="img-fluid p-2" src="./images/others/c++.png">
+						<img class="img-fluid p-2" src="./images/others/c-sharp.png">
+						<img class="img-fluid p-2" src="./images/others/pandas.png">
+						<img class="img-fluid p-2" src="./images/others/numpy.png">
+						<img class="img-fluid p-2" src="./images/others/tensorflow.png">
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="justify-content-center">
+						<img class="img-fluid p-2" src="./images/others/scikit-learn.png">
+						<img class="img-fluid p-2" src="./images/others/docker.webp">
+						<img class="img-fluid p-2" src="./images/others/jupyter-notebook.png">
+						<img class="img-fluid p-2" src="./images/others/github.svg">
+						<img class="img-fluid p-2" src="./images/others/pygame.png">
+						<img class="img-fluid p-2" src="./images/others/vs-code.png">
+						<img class="img-fluid p-2" src="./images/others/sublime.png">
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="p-2 p-lg-5">		
+			<div class="row align-items-center">
+				<div class="col-md-6 ps-5 text-center">
+					<iframe class="mt-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d484.36284902374695!2d121.02612556669906!3d13.784733153940278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd0f586b1c58f5%3A0xee18e567b6fed29b!2sKkopi.tea-Brgy.%20Poblacion%20San%20Pascual%2C%20Batangas!5e0!3m2!1sen!2sph!4v1782284455170!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+					<div class="d-flex gap-5 mt-4 justify-content-md-center">
+						<a href="https://github.com/sethscruzat" target="_blank">
+							<img src="./images/others/github.svg">
+						</a>
+						<a href="https://www.linkedin.com/in/sethscruzat/" target="_blank">
+							<img src="./images/others/linkedin.png">
+						</a>
+						<a href="https://www.facebook.com/profile.php?id=61591069445745" target="_blank">
+							<img src="./images/others/facebook.png">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 py-sm-1 py-md-5 px-3" id="contact_form">
+					<form class="p-5">
+						<h2 class="mb-3">Contact</h2>
+					  	<div class="mb-3">
+						    <label for="email" class="form-label">Email</label>
+						    <input type="email" class="form-control" id="email">
+						</div>
+
+						<div class="mb-3">
+						    <label for="subject" class="form-label">Subject</label>
+						    <input type="text" class="form-control" id="subject">
+					  	</div>
+
+						<div class="mb-3">
+						    <label for="message" class="form-label">Message</label>
+						    <textarea class="form-control" id="message" rows="7"></textarea>
+						</div>
+
+						<button type="button" class="float-end mt-3 btn p-2 shadow" data-bs-toggle="" data-bs-target="">
+					        Submit
+					    </button>
+
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+
+
+	<footer id="footer" class="d-flex text-center justify-content-start gap-2 px-5 py-4 mt-4">
+		<h4 class="mt-2">sethscruzat</h4>
+		<div class="ms-auto mt-2 justify-content-center text-center">
+			<div>2026 | All rights reserved.</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
