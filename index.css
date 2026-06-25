@@ -35,12 +35,13 @@
 }
 
 body{
-	background-image: linear-gradient(155deg, var(--primary), #98D189);
+	background-image: linear-gradient(155deg, var(--primary), var(--tertiary));
 	font-family: "League Spartan";
 }
 
+/* NAV SECTION */
 #nav{
-	background-color: var(--secondary);
+	background-color: var(--shadow);
 	z-index: 1;
 	font-family: "Source Serif";
 }
@@ -56,10 +57,11 @@ body{
 
 #goToContact a{
 	text-decoration: none;
-	border: 0.1rem solid var(--highlight);
+	border: 0.1rem solid var(--shadow);
 	border-radius: 0.5rem;
 }
 
+/* LANDING SECTION */
 #landing{
 	/*background-image: linear-gradient(155deg, var(--primary), #98D189);*/
 	color: var(--shadow);
@@ -69,14 +71,23 @@ body{
 	border-radius: 50%;
 }
 
-#landing a{
+#resume{
 	text-decoration: none;
 	color: var(--primary);
-	background-color: var(--secondary);
-	border: 0.1rem solid var(--shadow);
+	background-color: var(--shadow);
+	border: 0.1rem solid var(--secondary);
 	border-radius: 0.5rem;
 }
 
+#checkout{
+	text-decoration: none;
+	color: var(--shadow);
+	background-color: var(--primary);
+	border: 0.1rem solid var(--secondary);
+	border-radius: 0.5rem;
+}
+
+/* PROJECTS SECTION */
 #projects{
 	color: var(--shadow);
 }
@@ -86,10 +97,24 @@ body{
 	color: var(--shadow);
 }
 
+/* TOOLS SECTION */
 #tools{
 	color: var(--shadow);
 }
 
+.tool-box{
+	background-color: rgba(126, 198, 108, 0.6);
+	border-radius: 1rem;
+}
+
+.span-tools{
+	color: var(--primary);
+	background-color: var(--secondary);
+	border-radius: 1rem;
+}
+
+
+/* CONTACT SECTION */
 iframe{
 	border: 2px solid var(--shadow);
 	border-radius: 1rem;
@@ -99,21 +124,33 @@ iframe{
 	color: var(--shadow);
 }
 
-#contact button{
+#submitButton{
 	color: var(--primary);
 	background-color: var(--secondary);
 	border: 0.1rem solid var(--shadow);
 	border-radius: 0.5rem;
 }
 
+#emailPopup{
+	background-color: var(--primary);
+	color: var(--shadow);
+}
+
+.dropdown-center button{
+	background-color: rgba(0, 0, 0, 0);
+	border: 0 solid white;
+}
+
 #contact img{
 	width: 50px;
 	height: 50px;
+	border-radius: 50%;
 }
 
+/* FOOTER SECTION */
 #footer {
 	color: var(--primary);
-	background-color: var(--secondary);
+	background-color: var(--shadow);
 }
 
 #footer h4{
